@@ -1,0 +1,82 @@
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, rgb(253, 186, 116), rgb(223, 156, 86));
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.person-initials {
+    /* Add desired styles here */
+
+    font-size: 20px;               /* Larger font size for prominence */
+    font-weight: bold;             /* Bold text for emphasis */
+    color: #000000;                /* White color for the text */
+    background-color: #e4e2e2;    /* A pleasant blue background color */
+    padding: 10px 17px;           /* Padding around the initials */
+    border-radius: 12px;          /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+    display: inline-block;        /* Making it inline with other elements, if any */
+    margin: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+   
+    
+}
+
+
+
+
+form input{
+    border:none;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    background: rgb(234 88 12);
+    margin: 2px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form input[type="button"]:active {
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98); 
+}
+form input[type="button"]:hover {
+    background-color: rgb(240, 178, 98);
+}
+form input[type="button"] {
+    background-color: rgb(116, 103, 103);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 15px 0px;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: rgb(133, 131, 129);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
